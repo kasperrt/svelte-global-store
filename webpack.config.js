@@ -27,27 +27,6 @@ module.exports = [
           exclude: /node_modules/,
           use: [
             {
-              loader: "babel-loader",
-              options: {
-                presets: [
-                  "@babel/preset-typescript",
-                  [
-                    "@babel/preset-env",
-                    {
-                      // @ts-ignore
-                      targets: {
-                        safari: "12.1",
-                      },
-                      useBuiltIns: "usage",
-                      corejs: {
-                        version: 3,
-                      },
-                    },
-                  ],
-                ],
-              },
-            },
-            {
               loader: "svelte-loader",
               options: {
                 emitCss: false,
