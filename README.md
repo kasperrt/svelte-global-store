@@ -29,3 +29,6 @@ to get the data from the external imported stores.
 To compare the internal stores, the DOM shows the data in the internal store created within the component and not imported.
 
 Example-image of output;
+
+![image](https://user-images.githubusercontent.com/8393994/131813354-a6c8d114-8cde-4277-b7b1-a8a257331fe2.png)
+
