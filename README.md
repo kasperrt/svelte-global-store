@@ -21,6 +21,7 @@ You can also write
 ```
 console.log(window.appOne.getExternal())
 console.log(window.appOne.getExternal())
+console.log(window.appThree.getExternal())
 ```
 
 to get the data from the external imported stores.
@@ -28,5 +29,3 @@ to get the data from the external imported stores.
 To compare the internal stores, the DOM shows the data in the internal store created within the component and not imported.
 
 Example-image of output;
-![image](https://user-images.githubusercontent.com/8393994/131810984-3032ba2b-004a-4865-bcff-2b5b75b1466c.png)
-
