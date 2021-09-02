@@ -1,30 +1,35 @@
 <script lang="ts">
   import { writable } from "svelte/store";
+  import { external } from "./store/external";
 
-  import { data } from "./store/data";
   const internal = writable<string>(null);
+
   export let initial: string;
   export function getExternal() {
-    return $data;
+    return $external;
   }
   export function getInternal() {
     return $internal;
   }
 
-  $data = initial;
+  $external = initial;
   $internal = initial;
+
   setTimeout(() => {
     console.log("initial-data here is", initial);
     console.log("internal-store here is", $internal);
-    console.log("data-store here is", $data);
+    console.log("external-store here is", $external);
   }, 3000);
 </script>
 
 <pre>
-    {initial}
-    Data here is
+   Initial here is
+   <code>
+        {initial}
+   </code>
+    External here is
     <code>
-        {$data}
+        {$external}
     </code>
     Internal here is
     <code>
