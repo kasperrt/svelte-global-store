@@ -32,3 +32,18 @@ Example-image of output;
 
 ![image](https://user-images.githubusercontent.com/8393994/131813354-a6c8d114-8cde-4277-b7b1-a8a257331fe2.png)
 
+#### Rollup
+
+To show that this isn't a webpack limited issue, you can run
+
+```bash
+yarn dev:rollup
+```
+
+and navigate to
+
+```
+http://localhost:8000
+```
+
+and see that the same issue occurs there as well
