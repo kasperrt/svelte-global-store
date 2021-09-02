@@ -5,7 +5,7 @@ This repo demonstrates issues that arises if multiple of the same app is created
 To start
 
 ```bash
-yarn install && yarn dev
+yarn install && yarn dev:webpack
 ```
 
 Navigate to

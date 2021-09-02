@@ -10,7 +10,7 @@ module.exports = [
     entry: "./svelte/entry.ts",
     output: {
       filename: "index.js",
-      path: path.resolve(__dirname, `./public`),
+      path: path.resolve(__dirname, `./public-webpack`),
       publicPath: "",
     },
     resolve: {
@@ -65,7 +65,7 @@ module.exports = [
     },
     devServer: {
       static: {
-        directory: path.join(__dirname, "public"),
+        directory: path.join(__dirname, "public-webpack"),
       },
       compress: true,
       port: 8000,
