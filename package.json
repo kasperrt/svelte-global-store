@@ -1,8 +1,7 @@
 {
-  "name": "svelte-test",
+  "name": "svelte-global-store",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "dev": "webpack serve"
   },
